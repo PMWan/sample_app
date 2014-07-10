@@ -1,6 +1,7 @@
 require 'spec_helper'
-title_prefix = "Ruby on Rails Tutorial Sample App"
+#title_prefix = "Ruby on Rails Tutorial Sample App"
 describe "Static pages" do
+  let(:title_prefix) { "Ruby on Rails Tutorial Sample App" }
 
   describe "Home page" do
 
