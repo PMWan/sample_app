@@ -13,4 +13,3 @@ describe ApplicationHelper do
     expect(full_title("")).not_to match(/\|/)
   end
 end
-end
